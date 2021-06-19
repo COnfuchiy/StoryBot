@@ -1,0 +1,825 @@
+{
+  "Last modification date": "Sun Aug  9 20:46:01 2020",
+  "Version": "1.4.234",
+  "Editor": "SemD",
+  "start of first part": 1,
+  "test-0": [
+    {
+      "position": 0,
+      "depend step": 1,
+      "depend of": null,
+      "variants": [
+        "Попытаться вспомнить",
+        "Не вспоминать"
+      ]
+    }
+  ],
+  "0": [
+    {
+      "position": 0,
+      "depend step": 1,
+      "depend of": null,
+      "variants": [
+        "Попытаться вспомнить",
+        "Не вспоминать"
+      ]
+    }
+  ],
+  "1": [
+    {
+      "position": 0,
+      "depend step": 2,
+      "depend of": 0.0,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 2,
+      "depend of": 0.0,
+      "variants": null
+    }
+  ],
+  "2": [
+    {
+      "position": 0,
+      "depend step": 3,
+      "depend of": null,
+      "variants": [
+        "Осмотреть рюкзак",
+        "Исследовать квартиру",
+        "Выглянуть в окно"
+      ]
+    }
+  ],
+  "3": [
+    {
+      "position": 0,
+      "depend step": 4,
+      "depend of": 2.0,
+      "variants": [
+        "Закрыть рюкзак",
+        "Осмотреть карту",
+        "Осмотреть бумажку"
+      ]
+    },
+    {
+      "position": 1,
+      "depend step": 5,
+      "depend of": 2.0,
+      "variants": [
+        "Попытаться найти что-то в окружающем мусоре",
+        "Решится и открыть входную дверь"
+      ]
+    },
+    {
+      "position": 2,
+      "depend step": 3,
+      "depend of": 2.0,
+      "variants": null,
+      "to position": 2.0
+    }
+  ],
+  "4": [
+    {
+      "position": 0,
+      "depend step": 4,
+      "depend of": 3.0,
+      "variants": null,
+      "to position": 2.0
+    },
+    {
+      "position": 1,
+      "depend step": 4,
+      "depend of": 3.0,
+      "variants": null,
+      "to position": 3.0
+    },
+    {
+      "position": 2,
+      "depend step": 4,
+      "depend of": 3.0,
+      "variants": null,
+      "to position": 3.0
+    }
+  ],
+  "5": [
+    {
+      "position": 0,
+      "depend step": 5,
+      "depend of": 3.1,
+      "variants": null,
+      "to position": 3.1
+    },
+    {
+      "position": 1,
+      "depend step": 6,
+      "depend of": 3.1,
+      "variants": [
+        "Подойти к лестнице",
+        "Попытаться осмотреть другие квартиры"
+      ]
+    }
+  ],
+  "6": [
+    {
+      "position": 0,
+      "depend step": 7,
+      "depend of": 5.1,
+      "variants": [
+        "Подняться по лестнице",
+        "Спуститься по лестнице"
+      ]
+    },
+    {
+      "position": 1,
+      "depend step": 6,
+      "depend of": 5.1,
+      "variants": null,
+      "to position": 5.1
+    }
+  ],
+  "7": [
+    {
+      "position": 0,
+      "depend step": 10,
+      "depend of": 5.1,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 8,
+      "depend of": 6.1,
+      "variants": null,
+      "to position": 8.0
+    }
+  ],
+  "8": [
+    {
+      "position": 0,
+      "depend step": 9,
+      "depend of": 7.1,
+      "variants": null
+    }
+  ],
+  "9": [
+    {
+      "position": 0,
+      "depend step": 16,
+      "depend of": 8.0,
+      "variants": null
+    }
+  ],
+  "next part - 2, step - 16": 1,
+  "10": [
+    {
+      "position": 0,
+      "depend step": 11,
+      "depend of": 7.0,
+      "variants": [
+        "Вернуться",
+        "Поискать камень",
+        "Поискать в рюкзаке"
+      ]
+    }
+  ],
+  "11": [
+    {
+      "position": 0,
+      "depend step": 11,
+      "depend of": 10.0,
+      "variants": null,
+      "to position": 6.0
+    },
+    {
+      "position": 1,
+      "depend step": 11,
+      "depend of": 10.0,
+      "variants": null,
+      "to position": 12.0,
+      "chance": 40
+    },
+    {
+      "position": 2,
+      "depend step": 11,
+      "depend of": 10.0,
+      "variants": null,
+      "to position": 12.0,
+      "chance": 30
+    },
+    {
+      "position": 3,
+      "depend step": 11,
+      "depend of": 10.0,
+      "variants": null,
+      "to position": 12.0
+    }
+  ],
+  "12": [
+    {
+      "position": 0,
+      "depend step": 13,
+      "depend of": null,
+      "variants": null
+    }
+  ],
+  "13": [
+    {
+      "position": 1,
+      "depend step": 14,
+      "depend of": 12.0,
+      "variants": null
+    }
+  ],
+  "14": [
+    {
+      "position": 0,
+      "depend step": 15,
+      "depend of": 13.1,
+      "variants": [
+        "Резко броситься за ней",
+        "Побежать вниз",
+        "Крикнуть"
+      ]
+    }
+  ],
+  "15": [
+    {
+      "position": 0,
+      "depend step": 15,
+      "depend of": 14.0,
+      "variants": null,
+      "to position": 9.0,
+      "chance": 95,
+      "else": 0.0
+    },
+    {
+      "position": 1,
+      "depend step": 15,
+      "depend of": 14.0,
+      "variants": null,
+      "to position": 9.0
+    },
+    {
+      "position": 2,
+      "depend step": 15,
+      "depend of": 14.0,
+      "variants": null,
+      "to position": 14.0
+    }
+  ],
+  "end of first part": 1,
+  "start of second part": 2,
+  "16": [
+    {
+      "position": 0,
+      "depend step": 17,
+      "depend of": 9.0,
+      "variants": null
+    }
+  ],
+  "17": [
+    {
+      "position": 0,
+      "depend step": 18,
+      "depend of": 16.0,
+      "variants": null,
+      "to position": 18.0,
+      "if": 14.0,
+      "else-if": 1,
+      "chance": 20,
+      "else": 18.1
+    },
+    {
+      "position": 1,
+      "depend step": 19,
+      "depend of": 16.0,
+      "variants": [
+        "Побежать в сторону убегающей женщины",
+        "Пойти в противоположную сторону"
+      ]
+    }
+  ],
+  "18": [
+    {
+      "position": 0,
+      "depend step": 20,
+      "depend of": 17.0,
+      "variants": [
+        "Войти в подъезд",
+        "Пойти к зданию"
+      ]
+    },
+    {
+      "position": 1,
+      "depend step": 22,
+      "depend of": null,
+      "variants": null
+    }
+  ],
+  "19": [
+    {
+      "position": 0,
+      "depend step": 18,
+      "depend of": 17.1,
+      "variants": null,
+      "chance": 70,
+      "else": 18.1
+    },
+    {
+      "position": 1,
+      "depend step": 18,
+      "depend of": null,
+      "variants": null,
+      "to position": 18.1
+    }
+  ],
+  "20": [
+    {
+      "position": 0,
+      "depend step": 33,
+      "depend of": 19.0,
+      "variants": null,
+      "to position": 32.0
+    },
+    {
+      "position": 1,
+      "depend step": 21,
+      "depend of": 19.0,
+      "variants": null,
+      "to position": 21.0
+    }
+  ],
+  "21": [
+    {
+      "position": 0,
+      "depend step": 26,
+      "depend of": 20.1,
+      "variants": null
+    }
+  ],
+  "22": [
+    {
+      "position": 0,
+      "depend step": 23,
+      "depend of": 18.1,
+      "variants": [
+        "Добежать до здания",
+        "Забежать в подъезд"
+      ]
+    }
+  ],
+  "23": [
+    {
+      "position": 0,
+      "depend step": 25,
+      "depend of": 22.0,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 24,
+      "depend of": 22.0,
+      "variants": null
+    }
+  ],
+  "24": [
+    {
+      "position": 0,
+      "depend step": 32,
+      "depend of": 23.1,
+      "variants": null
+    }
+  ],
+  "25": [
+    {
+      "position": 0,
+      "depend step": 21,
+      "depend of": 23.0,
+      "variants": null
+    }
+  ],
+  "26": [
+    {
+      "position": 0,
+      "depend step": 27,
+      "depend of": 25.0,
+      "variants": null
+    }
+  ],
+  "27": [
+    {
+      "position": 0,
+      "depend step": 28,
+      "depend of": 26.0,
+      "variants": null
+    }
+  ],
+  "28": [
+    {
+      "position": 0,
+      "depend step": 29,
+      "depend of": 27.0,
+      "variants": null
+    }
+  ],
+  "29": [
+    {
+      "position": 0,
+      "depend step": 30,
+      "depend of": 28.0,
+      "variants": [
+        "Подойти",
+        "Позвать"
+      ]
+    }
+  ],
+  "30": [
+    {
+      "position": 0,
+      "depend step": 31,
+      "depend of": 29.0,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 31,
+      "depend of": 29.0,
+      "variants": null
+    }
+  ],
+  "31": [
+    {
+      "position": 0,
+      "depend step": 0,
+      "depend of": null,
+      "variants": null
+    }
+  ],
+  "next part - 3, type - shop, position - 124235": 1,
+  "32": [
+    {
+      "position": 0,
+      "depend step": 33,
+      "depend of": null,
+      "variants": null
+    }
+  ],
+  "33": [
+    {
+      "position": 0,
+      "depend step": 34,
+      "depend of": 32.0,
+      "variants": null
+    }
+  ],
+  "34": [
+    {
+      "position": 0,
+      "depend step": 35,
+      "depend of": 33.0,
+      "variants": null
+    }
+  ],
+  "35": [
+    {
+      "position": 0,
+      "depend step": 36,
+      "depend of": 34.0,
+      "variants": null
+    }
+  ],
+  "36": [
+    {
+      "position": 0,
+      "depend step": 37,
+      "depend of": 35.0,
+      "variants": null
+    }
+  ],
+  "37": [
+    {
+      "position": 0,
+      "depend step": 38,
+      "depend of": 36.0,
+      "variants": null
+    }
+  ],
+  "38": [
+    {
+      "position": 0,
+      "depend step": 39,
+      "depend of": 37.0,
+      "variants": null,
+      "if": 24.0,
+      "else-if": 1
+    },
+    {
+      "position": 1,
+      "depend step": 39,
+      "depend of": 37.0,
+      "variants": null
+    }
+  ],
+  "next part - 3, type - porch, position - 124235": 1,
+  "39": [
+    {
+      "position": 0,
+      "depend step": 40,
+      "depend of": 38.0,
+      "variants": null,
+      "if": 31.0,
+      "else-if": 1
+    },
+    {
+      "position": 1,
+      "depend step": 40,
+      "depend of": 38.0,
+      "variants": null
+    }
+  ],
+  "40": [
+    {
+      "position": 0,
+      "depend step": 41,
+      "depend of": 39.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "41": [
+    {
+      "position": 0,
+      "depend step": 42,
+      "depend of": 40.0,
+      "variants": [
+        "Может пока будем действовать сообща?",
+        "Ты мне не доверяешь?"
+      ]
+    }
+  ],
+  "42": [
+    {
+      "position": 0,
+      "depend step": 43,
+      "depend of": 41.0,
+      "variants": null,
+      "to position": 43.0,
+      "if": 37.0,
+      "else-if": 43.1
+    },
+    {
+      "position": 1,
+      "depend step": 44,
+      "depend of": 41.0,
+      "variants": null
+    }
+  ],
+  "43": [
+    {
+      "position": 0,
+      "depend step": 47,
+      "depend of": 42.0,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 47,
+      "depend of": 42.0,
+      "variants": null
+    }
+  ],
+  "44": [
+    {
+      "position": 0,
+      "depend step": 45,
+      "depend of": 42.0,
+      "variants": null
+    }
+  ],
+  "45": [
+    {
+      "position": 0,
+      "depend step": 46,
+      "depend of": 44.0,
+      "variants": null
+    }
+  ],
+  "46": [
+    {
+      "position": 0,
+      "depend step": 43,
+      "depend of": 45.0,
+      "variants": null,
+      "if": 37.0,
+      "else-if": 43.1
+    }
+  ],
+  "47": [
+    {
+      "position": 0,
+      "depend step": 48,
+      "depend of": 43.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "48": [
+    {
+      "position": 0,
+      "depend step": 49,
+      "depend of": 47.0,
+      "variants": null,
+      "dialog": 1,
+      "if": 14.0,
+      "else-if": 1
+    },
+    {
+      "position": 1,
+      "depend step": 49,
+      "depend of": 47.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "49": [
+    {
+      "position": 0,
+      "depend step": 53,
+      "depend of": null,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "50": [
+    {
+      "position": 0,
+      "depend step": 51,
+      "depend of": 49.0,
+      "variants": null,
+      "if": 18.1,
+      "else-if": 52.0
+    }
+  ],
+  "51": [
+    {
+      "position": 0,
+      "depend step": 52,
+      "depend of": 50.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "52": [
+    {
+      "position": 0,
+      "depend step": 53,
+      "depend of": null,
+      "variants": null
+    }
+  ],
+  "53": [
+    {
+      "position": 0,
+      "depend step": 54,
+      "depend of": null,
+      "variants": null,
+       "if": 14.0,
+      "else-if": 50.0
+    }
+  ],
+  "54": [
+    {
+      "position": 0,
+      "depend step": 55,
+      "depend of": 53.0,
+      "variants": null
+    }
+  ],
+  "55": [
+    {
+      "position": 0,
+      "depend step": 56,
+      "depend of": 54.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "56": [
+    {
+      "position": 0,
+      "depend step": 57,
+      "depend of": 55.0,
+      "variants": [
+        "Положить ключи в карман",
+        "Рассмотреть ключи"
+      ]
+    }
+  ],
+  "57": [
+    {
+      "position": 0,
+      "depend step": 58,
+      "depend of": 56.0,
+      "variants": null
+    },
+    {
+      "position": 1,
+      "depend step": 56,
+      "depend of": null,
+      "variants": null,
+      "to position": 56.0
+    }
+  ],
+  "58": [
+    {
+      "position": 0,
+      "depend step": 59,
+      "depend of": 57.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "59": [
+    {
+      "position": 0,
+      "depend step": 60,
+      "depend of": 58.0,
+      "variants": null
+    }
+  ],
+  "60": [
+    {
+      "position": 0,
+      "depend step": 61,
+      "depend of": 59.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "61": [
+    {
+      "position": 0,
+      "depend step": 62,
+      "depend of": 60.0,
+      "variants": null
+    }
+  ],
+  "62": [
+    {
+      "position": 0,
+      "depend step": 63,
+      "depend of": 61.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "63": [
+    {
+      "position": 0,
+      "depend step": 64,
+      "depend of": 62.0,
+      "variants": null
+    }
+  ],
+  "64": [
+    {
+      "position": 0,
+      "depend step": 65,
+      "depend of": 63.0,
+      "variants": null
+    }
+  ],
+  "65": [
+    {
+      "position": 0,
+      "depend step": 66,
+      "depend of": 64.0,
+      "variants": null
+    }
+  ],
+  "66": [
+    {
+      "position": 0,
+      "depend step": 67,
+      "depend of": 65.0,
+      "variants": null
+    }
+  ],
+  "67": [
+    {
+      "position": 0,
+      "depend step": 68,
+      "depend of": 66.0,
+      "variants": null,
+      "dialog": 1
+    }
+  ],
+  "68": [
+    {
+      "position": 0,
+      "depend step": 235235,
+      "depend of": 67.0,
+      "variants": null
+    }
+  ]
+}
